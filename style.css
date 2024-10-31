@@ -24,6 +24,7 @@ body {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 18px;
 }
 
 .flavor {
@@ -53,6 +54,30 @@ hr{
   border-color: #653A2D;
 }
 
-footer{
-  color: black;
+.bottom-line {
+  margin-top: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a{
+ color: #a05d38;
+}
+
+a:visited{
+  /*You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.*/
+  color: grey;
+}
+
+a:hover{
+  color:blue;
+}
+
+a:active{
+  /*You change properties of a link when the link is actually being clicked by using a pseudo-selector */
+  color: white;
 }
