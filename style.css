@@ -10,11 +10,17 @@ body {
 .menu {
   margin-top: 2rem;
   padding-top: 1rem;
-  width: 75%;
+  width: 80%;
+  max-width: 500px; /*The current width of the menu will always take up 80% of the body element's width. On a very wide screen, the coffee and dessert appear far apart from their prices. Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.*/
   margin-left: auto;
   margin-right: auto;
   background-color: blanchedalmond;
   border-radius: 10px;
+  padding-left: 2rem ;
+  padding-right: 2rem;
+}
+section{
+  border: solid 2px black;
 }
 
 .item p {
@@ -23,13 +29,13 @@ body {
 
 .flavor {
   text-align: left;
-  width: 47%;
+  width: 49%;
 }
 .dessert {
   text-align: left;
-  width: 47%;
+  width: 49%;
 }
 .price {
   text-align: right;
-  width: 47%;
+  width: 49%;
 }
