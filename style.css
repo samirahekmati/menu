@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #a05d38;
-  font-weight: bold;
+  padding: 20px;
 }
 .menu {
   margin-top: 2rem;
@@ -19,12 +19,11 @@ body {
   padding-left: 2rem ;
   padding-right: 2rem;
 }
-section{
-  border: solid 2px black;
-}
 
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .flavor {
@@ -38,4 +37,22 @@ section{
 .price {
   text-align: right;
   width: 49%;
+}
+
+h1,h2 {
+  font-family: Impact, serif;
+  /*You can add a fallback value for the font-family by adding another font name separated by a comma.*/
+}
+.established{
+  font-style: italic;
+}
+
+hr{
+  height: 2px;
+  background-color: #653A2D ;
+  border-color: #653A2D;
+}
+
+footer{
+  color: black;
 }
